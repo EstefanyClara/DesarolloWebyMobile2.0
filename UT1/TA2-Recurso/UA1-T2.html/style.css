@@ -5,5 +5,13 @@ div{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+}
+#quote{
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(206, 121, 9);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
