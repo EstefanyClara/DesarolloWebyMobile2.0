@@ -1,0 +1,34 @@
+.card-body{
+    background-color: rgb(104, 101, 101);
+    
+}
+.card-text::first-line{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Número de líneas a mostrar */
+    -webkit-box-orient: vertical;
+    color: white;    
+}
+.card-text:hover{
+    overflow: visible;
+    text-overflow: unset;
+    display: -webkit-box;
+    -webkit-line-clamp: unset; /* Número de líneas a mostrar */
+    -webkit-box-orient: vertical;
+    color: white;    
+}
+
+div p{
+    color: orange;
+}
+div > h5{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h5~p{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
