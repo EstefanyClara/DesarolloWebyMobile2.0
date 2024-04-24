@@ -6,5 +6,5 @@ export default interface Tarjeta {
   endDate: string;
   status: string;
   priority: string;
-  comments: string[];
+  comments: Array<string>;
 }

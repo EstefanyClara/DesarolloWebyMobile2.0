@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Component, Input } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-modal',
@@ -9,5 +10,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './modal.component.css'
 })
 export class ModalComponent {
-   
+
+  
 }
