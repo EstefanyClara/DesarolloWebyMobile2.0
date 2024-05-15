@@ -1,0 +1,46 @@
+[
+        {
+            "title": "Compras",
+            "description": "What do you call a dad that has fallen through the ice?",
+            "assignedTo": "Estefany.",
+            "status": "To Do",
+            "id": 201
+        },
+        {
+            "title": "Estudiar",
+            "description": "Where do you learn to make banana splits?",
+            "assignedTo": "At sundae school.",
+            "status": "Done",
+            "id": 293
+        },
+        {
+            "title": "Vender",
+            "description": "Why did the octopus beat the shark in a fight?",
+            "assignedTo": "Fofito",
+           "status": "In Progress",
+            "id": 337
+        },
+        {
+            "title": "Gonzalo",
+            "description": "What do you call a dad that has fallen through the ice?",
+            "assignedTo": "Estefany.",
+            "status": "To Do",
+            "id": 203
+        },
+        {
+            "title": "mayonesa",
+            "description": "Where do you learn to make banana splits?",
+            "assignedTo": "At sundae school.",
+            "status": "Done",
+            "id": 3000
+        },
+        {
+            "title": "helado",
+            "description": "Why did the octopus beat the shark in a fight?",
+            "assignedTo": "Fofito",
+           "status": "In Progress",
+            "id": 400
+        }
+
+
+    ]
