@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(11, 26, 75, 0.842);
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.button{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;   
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 50px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+}
