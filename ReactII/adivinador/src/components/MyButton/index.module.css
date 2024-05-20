@@ -21,11 +21,14 @@ button {
 
   }
   .red{
-    background-color: #48b87a;
+    background-color: #ec8c54;
   }
   .violet{
     background-color: #9159eb;
   }
   .blue{
-    background-color: #458be6;
+    background-color: #275796;
+  }
+  .green{
+    background-color: rgb(43, 211, 43);
   }

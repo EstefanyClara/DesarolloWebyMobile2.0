@@ -7,7 +7,7 @@ import MyButton from './components/MyButton'
 export default function App() {
 
   const [numberMin, setNumberMin]= useState(0);
-  const [numberMax, setNumberMax]= useState(10);
+  const [numberMax, setNumberMax]= useState(101);
   const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * numberMax-numberMin + 1) + numberMin);
   
 
@@ -26,11 +26,13 @@ export default function App() {
   }
   const lables = ['MAYOR', 'MENOR', 'IGUAL'];
 
+  
+
   return (
     <div className='App'>
       
       <h1>{randomNumber}</h1>
-      <MyButton label='Generar número' onClickHandler={generateRandomNumber} variant='blue'/>
+      <MyButton label='Generar número' onClickHandler={generateRandomNumber} variant='violet'/>
       <MyButton label={lables[0]} onClickHandler={getRandomMayor}  variant='blue'/>
       <MyButton label={lables[1]} onClickHandler={getRandomMenor}  variant='red'/>
       <MyButton label={lables[2]} onClickHandler={alert} variant='green'/>

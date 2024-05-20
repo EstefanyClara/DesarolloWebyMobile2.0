@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(11, 26, 75, 0.842);
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}  
+
+.titulo{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

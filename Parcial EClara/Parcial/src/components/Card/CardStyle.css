@@ -1,0 +1,23 @@
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgba(0, 0, 0, 0.753);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 20px;
+    
+  }
+  .button{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;   
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 50px;
+}
+  
